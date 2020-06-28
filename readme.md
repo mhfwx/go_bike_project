@@ -1,16 +1,35 @@
-# Ford Bike Duration per hour
-## by Haofei 
+# Dive Into Ford GoBike Data
 
-## Dataset
+## Project Motivation
 
-> This data contains 3,065 unique bikes and 94,802 rides. There are total 12 variables in this dataset. 
+Based on Cross-Industry Standard Process of Data Mining (CRISP-DM), the Ford GoBike dataset was collected and investigated.
+Three bisinuess questions were asked and answered:
 
-
-## Summary of Findings
-
-> This presentation is to discuss the total bike ride duration in each hour. The relative duration bar chart above shows there are two peak time period at 0800 and 1700. 
+- How long are bikes used per ride?
 
 
-## Key Insights for Presentation
+- When should we deploy more bikes on the street
 
-> The majority of bike duration concentrades around 10 minutes. The majority of rides is not bike share. The duration of shared bike ride at each hour is really minimal. The peak hours (at 0800 and 1700) are the most volitale during the week. The impact from day of week is different among different working hours.
+
+- The impact of bike share?
+
+
+
+## File Description
+
+- A Descriptive Jupyter Notebook
+- A Data Exploration Jupyter notebook with TPL format
+- Two Html presentaion slides
+- One dataset about Ford GoBike usage csv file
+
+## Results of the analysis
+   
+Ford GoBike can offer clients who rent bikes longer than 10 minutes a better offer to keep clients with little cost. In order to improve the service, Ford Gobike can deploy more bike during peak hours and abandon the less popular bike share program. Please refer to the Medium post: https://medium.com/@mahaofei001/ford-bike-duration-ca746cc7dbfc
+
+## Requirement
+numpy==1.17.0
+pandas==1.0.5
+python-dateutil==2.8.1
+pytz==2020.1
+six==1.15.0
+SQLAlchemy==1.3.17
